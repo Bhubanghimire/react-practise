@@ -3,7 +3,7 @@ import './App.css';
 import React, {Component} from 'react';
 import Greet from "./components/Functional";
 import Welcome from "./components/Classcomponent";
-
+import Hello from "./components/JSXexample";
 
 class App extends Component{
   render() {
@@ -11,6 +11,7 @@ class App extends Component{
         <div className="App">
                 <Greet></Greet>
                 <Welcome></Welcome>
+                <Hello></Hello>
         </div>
     );
   }

@@ -1,0 +1,9 @@
+1. JSX : JAVA Script XML
+- Extension to the javascript language syntax.
+- Write XML-like code for elements and components.
+- JSX tags have a tag name, attributes and children.
+- JSX is not necessity ot write react applications.
+- JSX makes your react code simpler and elegant.
+differences:
+Class - > className
+
