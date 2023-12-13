@@ -1,10 +1,12 @@
 // import logo from './logo.svg';
 import './App.css';
 import React, {Component} from 'react';
-import Greet from "./components/Functional";
-import Welcome from "./components/Classcomponent";
+// import Greet from "./components/Functional";
+// import Welcome from "./components/Classcomponent";
 // import Hello from "./components/JSXexample";
-import Counter from "./components/Counter";
+// import Counter from "./components/Counter";
+import FunctionClick from "./components/functionClick";
+import ClassClick from "./components/classClick";
 
 
 class App extends Component{
@@ -23,13 +25,16 @@ class App extends Component{
                 {/*    <button>Action</button>*/}
                 {/*</Greet>*/}
 
-                <Greet name="dhakal">
-                    <a href="http://www.facebook.com" target="_blank" rel="noreferrer">Facebook</a>
-                </Greet>
-                <Welcome name="class component"></Welcome>
+                {/*<Greet name="dhakal">*/}
+                {/*    <a href="http://www.facebook.com" target="_blank" rel="noreferrer">Facebook</a>*/}
+                {/*</Greet>*/}
+                {/*<Welcome name="class component"></Welcome>*/}
                 {/*<Hello></Hello>*/}
 
-            <Counter></Counter>
+                <FunctionClick></FunctionClick>
+            <ClassClick />
+
+            {/*<Counter></Counter>*/}
         </div>
     );
   }
