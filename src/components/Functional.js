@@ -1,12 +1,13 @@
 import React from "react";
 
-const Greet = (props) =>{
+const Greet = ({name, lastName, children}) =>{
+    // or use props in param and inside body: const {name, lastName} = props
    return(
       <div>
        <h1>
-          Hello World {props.name} {props.lastName}
+          Hello World {name} {lastName}
        </h1>
-      {props.children}
+      {children}
       </div>
 
    )
