@@ -5,9 +5,9 @@ import React, {Component} from 'react';
 // import Welcome from "./components/Classcomponent";
 // import Hello from "./components/JSXexample";
 // import Counter from "./components/Counter";
-import FunctionClick from "./components/functionClick";
-import ClassClick from "./components/classClick";
-
+// import FunctionClick from "./components/functionClick";
+// import ClassClick from "./components/classClick";
+import HandlerBind from "./components/handlerBind";
 
 class App extends Component{
   render() {
@@ -31,8 +31,9 @@ class App extends Component{
                 {/*<Welcome name="class component"></Welcome>*/}
                 {/*<Hello></Hello>*/}
 
-                <FunctionClick></FunctionClick>
-            <ClassClick />
+            {/*    <FunctionClick></FunctionClick>*/}
+            {/*<ClassClick />*/}
+            <HandlerBind></HandlerBind>
 
             {/*<Counter></Counter>*/}
         </div>
