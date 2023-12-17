@@ -8,6 +8,7 @@ import React, {Component} from 'react';
 // import FunctionClick from "./components/functionClick";
 // import ClassClick from "./components/classClick";
 import HandlerBind from "./components/handlerBind";
+import ParentComponent from './components/ParentComponent';
 
 class App extends Component{
   render() {
@@ -34,6 +35,7 @@ class App extends Component{
             {/*    <FunctionClick></FunctionClick>*/}
             {/*<ClassClick />*/}
             <HandlerBind></HandlerBind>
+            <ParentComponent></ParentComponent>
 
             {/*<Counter></Counter>*/}
         </div>
