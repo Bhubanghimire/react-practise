@@ -9,6 +9,7 @@ import React, {Component} from 'react';
 // import ClassClick from "./components/classClick";
 import HandlerBind from "./components/handlerBind";
 import ParentComponent from './components/ParentComponent';
+import UserGreeting from "./components/UserGreeting";
 
 class App extends Component{
   render() {
@@ -38,6 +39,7 @@ class App extends Component{
             <ParentComponent></ParentComponent>
 
             {/*<Counter></Counter>*/}
+            <UserGreeting></UserGreeting>
         </div>
     );
   }
