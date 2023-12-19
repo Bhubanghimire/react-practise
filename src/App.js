@@ -10,6 +10,7 @@ import React, {Component} from 'react';
 import HandlerBind from "./components/handlerBind";
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from "./components/UserGreeting";
+import NameList from "./components/NameList";
 
 class App extends Component{
   render() {
@@ -40,6 +41,7 @@ class App extends Component{
 
             {/*<Counter></Counter>*/}
             <UserGreeting></UserGreeting>
+            <NameList/>
         </div>
     );
   }
