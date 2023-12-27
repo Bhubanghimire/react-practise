@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React from "react";
 import Person from "./Person"
 
 
@@ -10,19 +10,25 @@ function NameList() {
             age:19
         },
         {
-            id:1,
+            id:2,
             name:"Bhuban 2",
             age:19
         },
         {
-            id:1,
+            id:3,
             name:"Bhuba 3",
             age:19
         }
     ]
+    const names = ['bhuban', "saroj", "sweta", "nitika", "bhuban"]
 
-    const personList = persons.map(person => <Person person={person} ></Person>)
-    return <div>{personList}</div>
+    const personList = persons.map(person => <Person key={person.id} person={person} ></Person>)
+    const nameList = names.map((name,index) => <h2 key={index}> {name}</h2>)
+
+    return <div>
+        <div> {personList}</div>
+               <div> {nameList} </div>
+    </div>
 
 }
 export default NameList
