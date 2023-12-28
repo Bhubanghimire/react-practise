@@ -11,11 +11,20 @@ import HandlerBind from "./components/handlerBind";
 import ParentComponent from './components/ParentComponent';
 import UserGreeting from "./components/UserGreeting";
 import NameList from "./components/NameList";
+import Stylesheet from "./components/Stylesheet";
+import Inline from "./components/inline";
+import './appStyle.css';
+import styles from  './appStyles.module.css';
+
 
 class App extends Component{
   render() {
     return (
         <div className="App">
+                <h1 className='error'>Error</h1>
+                <h1 className={styles.success}> Success</h1>
+                <Stylesheet primary = {true} />
+                <Inline />
                 {/*<Greet name="bhuban" lastName="ghimire">*/}
                 {/*    <p> this is child paragraph </p>*/}
                 {/*</Greet>*/}
