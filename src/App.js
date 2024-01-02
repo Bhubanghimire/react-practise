@@ -16,18 +16,19 @@ import React, {Component} from 'react';
 import './appStyle.css';
 // import styles from  './appStyles.module.css';
 // import Form from "./components/Form";
-import LifeCycleA from "./components/lifeCycleA";
-import LifecycleB from "./components/LifeCycleB";
-
+// import LifeCycleA from "./components/lifeCycleA";
+// import LifecycleB from "./components/LifeCycleB";
+import FragmentDemo from "./components/FragmentDemo";
 
 class App extends Component{
   render() {
     return (
         <div className="App">
-            <div>
-                <LifeCycleA/>
-                <LifecycleB/>
-            </div>
+            <FragmentDemo/>
+            {/*<div>*/}
+            {/*    <LifeCycleA/>*/}
+            {/*    <LifecycleB/>*/}
+            {/*</div>*/}
                 {/*<Form/>*/}
                 {/*<h1 className='error'>Error</h1>*/}
                 {/*<h1 className={styles.success}> Success</h1>*/}
