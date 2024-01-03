@@ -8,7 +8,7 @@ import React, {Component} from 'react';
 // import FunctionClick from "./components/functionClick";
 // import ClassClick from "./components/classClick";
 // import HandlerBind from "./components/handlerBind";
-// import ParentComponent from './components/ParentComponent';
+import ParentComponent from './components/ParentComponent';
 // import UserGreeting from "./components/UserGreeting";
 // import NameList from "./components/NameList";
 // import Stylesheet from "./components/Stylesheet";
@@ -18,13 +18,17 @@ import './appStyle.css';
 // import Form from "./components/Form";
 // import LifeCycleA from "./components/lifeCycleA";
 // import LifecycleB from "./components/LifeCycleB";
-import FragmentDemo from "./components/FragmentDemo";
+// import FragmentDemo from "./components/FragmentDemo";
+// import PureComp from "./components/PureComponent";
+
 
 class App extends Component{
   render() {
     return (
         <div className="App">
-            <FragmentDemo/>
+            <ParentComponent/>
+            {/*<PureComp/>*/}
+            {/*<FragmentDemo/>*/}
             {/*<div>*/}
             {/*    <LifeCycleA/>*/}
             {/*    <LifecycleB/>*/}
